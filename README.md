@@ -10,7 +10,7 @@ Real-time detection and feasibility analysis for placing packages on desk surfac
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This system enables indoor delivery robots to adaptively place packages on desks and tables without predefined docking points. It combines:
 
@@ -23,27 +23,27 @@ This system enables indoor delivery robots to adaptively place packages on desks
 
 ---
 
-## ✨ Features
+## Features
 
-### 🖥️ Interactive GUI Application
+### Interactive GUI Application
 - **4-Step Workflow**: Box measurement → Desk scanning → Analysis → Results
 - **Real-time Feedback**: Live visualization with animated effects
 - **Dual Detection Modes**: Traditional CV or YOLOv8 (toggle with 'M' key)
 - **3D Visualization**: Animated box placement with clearance indicators
 
-### 📦 Box Detection
+### Box Detection
 - RGB-D based 3D bounding box detection
 - Dimension estimation (length × width × height)
 - Traditional CV or trained YOLOv8 model
 - ~80-95% accuracy with YOLO (vs 40-60% traditional)
 
-### 📊 Desk Space Analysis
+### Desk Space Analysis
 - RANSAC plane detection for surface identification
 - Occupancy grid mapping at 5mm resolution
 - Multiple free region detection and ranking
 - Real-time free space percentage tracking
 
-### 🎯 Placement Feasibility
+### Placement Feasibility
 - Checks if box fits in detected free space
 - Considers multiple orientations (0°, 90°)
 - Calculates safety clearances
@@ -51,7 +51,7 @@ This system enables indoor delivery robots to adaptively place packages on desks
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - **OS**: Windows (for Kinect v2 SDK support)
 - **Hardware**: Microsoft Kinect v2 sensor (Xbox One version)
@@ -60,7 +60,7 @@ This system enables indoor delivery robots to adaptively place packages on desks
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Kinect SDK
 
